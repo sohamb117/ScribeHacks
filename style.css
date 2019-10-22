@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(37, 39, 77);
+    color: white;
+}
+
+.oceanImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    background-image: url("/Resources/ocean.png");
+    background-size: 100%;
+}
+
+.nav-icon {
+    margin: 1px;
+    width: 15px;
+}
+
+.nav-icon:after,
+.nav-icon:before,
+.nav-icon div {
+    background-color: #fff;
+    border-radius: 1.5px;
+    content: '';
+    display: block;
+    height: 2.5px;
+    margin: 3.5px 0;
+    transition: all .2s ease-in-out;
+}
+
+.nav-icon:hover:before {
+    transform: translateY(6px) rotate(135deg);
+}
+
+.nav-icon:hover:after {
+    transform: translateY(-6px) rotate(-135deg);
+}
+
+.nav-icon:hover div {
+    transform: scale(0);
+}
