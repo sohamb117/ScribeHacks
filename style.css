@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(37, 39, 77);
     color: white;
@@ -40,4 +44,10 @@ body {
 
 .nav-icon:hover div {
     transform: scale(0);
+}
+
+.About {
+    text-align: center;
+    padding-top: 600px;
+    padding-bottom: 600px;
 }
